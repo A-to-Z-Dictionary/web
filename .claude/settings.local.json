@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(rm \"C:\\\\Programming\\\\workspace\\\\claude-startkit\\\\.github\\\\ISSUE_TEMPLATE\\\\bug_report.md\" \"C:\\\\Programming\\\\workspace\\\\claude-startkit\\\\.github\\\\ISSUE_TEMPLATE\\\\feature_request.md\")",
+      "Bash(rmdir \"C:\\\\Programming\\\\workspace\\\\claude-startkit\\\\.github\\\\ISSUE_TEMPLATE\")",
+      "WebSearch",
+      "Bash(npm list *)",
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__get_project_url",
+      "mcp__supabase__get_publishable_keys",
+      "Bash(robocopy \"C:\\\\Programming\\\\workspace\\\\claude-startkit\" \"C:\\\\Programming\\\\project\\\\A to Z Animals\\\\web\" /E /XD node_modules .next .git /XF \"*.log\" /NFL /NJH /NJS)",
+      "Bash(rm -rf \"C:\\\\Programming\\\\project\\\\A to Z Animals\\\\web\\\\scripts\\\\data\\\\data\")",
+      "Bash(rm -f \"C:\\\\Programming\\\\project\\\\A to Z Animals\\\\web\\\\scripts\\\\upload_data.sql\")",
+      "mcp__supabase__execute_sql",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d.get\\('images', []\\)[:2]\\)\")",
+      "Bash(node *)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "context7",
+    "supabase"
+  ]
+}
