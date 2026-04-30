@@ -1,0 +1,57 @@
+{
+  "slug": "rhinoceros",
+  "name_scientific": "Rhinocerotidae",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 35,
+  "lifespan_max": 50,
+  "height_min": 140,
+  "height_max": 185,
+  "weight_min": 800,
+  "weight_max": 2300,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/gc5b56a631084875c67b64005e67d1449bcb29bb6d231e472b2bf07f6c4d80b6cc6bdfc345316d78371bef1a3e0feb6041d37069790e29fe97f29c2fe92b7113d_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are big, strong cats that live in Africa. They have beautiful golden fur, and boy lions have a big mane around their neck! Lions love to live with their family in a group called a pride. They are known as the \"king of the jungle,\" even though they mostly live in open grasslands.",
+      "fun_fact": "A lion's roar is so loud that you can hear it from up to 5 miles (8 kilometers) away!",
+      "habitat": [
+        "African savannas",
+        "grasslands",
+        "open woodlands"
+      ],
+      "tags": [
+        "big cat",
+        "Africa",
+        "savanna",
+        "mane",
+        "pride",
+        "roar",
+        "carnivore",
+        "mammal",
+        "wild animal",
+        "king of the jungle",
+        "hunter",
+        "powerful",
+        "social animal",
+        "golden fur",
+        "apex predator"
+      ]
+    }
+  }
+}

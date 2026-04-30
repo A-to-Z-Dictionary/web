@@ -1,0 +1,55 @@
+{
+  "slug": "jaguar",
+  "name_scientific": "Panthera onca",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 12,
+  "lifespan_max": 15,
+  "height_min": 63,
+  "height_max": 76,
+  "weight_min": 56,
+  "weight_max": 158,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g2f129d5526c25d005ffa720c8d9e1796a83198dd627e181324825045a94bb92f9cc950c70fb7f7d2896ebd442fadac960a7ef80a8c7ff262259cfe48c5809e3c_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are huge, brave cats that live in sunny places like Africa. Boy lions have a special fluffy hair called a mane around their face. They live in big families called prides and love to play and hunt together.",
+      "fun_fact": "Did you know a lion's roar is so loud, you can hear it from really far away – like across many soccer fields!",
+      "habitat": [
+        "Grasslands",
+        "Savannas",
+        "Forests"
+      ],
+      "tags": [
+        "Mammal",
+        "Carnivore",
+        "Africa",
+        "Big Cat",
+        "Predator",
+        "Pride",
+        "King of the Jungle",
+        "Roar",
+        "Hunter",
+        "Savanna",
+        "Wild Animal",
+        "Mane",
+        "Cat Family"
+      ]
+    }
+  }
+}

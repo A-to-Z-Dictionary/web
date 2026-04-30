@@ -1,0 +1,57 @@
+{
+  "slug": "camel",
+  "name_scientific": "Camelus",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 0,
+  "lifespan_max": 0,
+  "height_min": 0,
+  "height_max": 0,
+  "weight_min": 0,
+  "weight_max": 0,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/ga6cae47d4f32abb7fdaade18cc617d47ef1282fda114ea8f1a5081697d7122f77086c8d874a6ec7e63cf12d970b6bc460782e2468f9b4afb13713c9c13522951_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are big, majestic cats mostly found in Africa. Boy lions have a special furry mane around their heads, which makes them look very cool! They live in big families called prides and love to play and hunt together. Lions are super strong and are often called the \"king of the jungle,\" even though they mostly live in open fields called savannas.",
+      "fun_fact": "Did you know a group of lions is called a \"pride\"? They love to nap for many hours during the day!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "Lion",
+        "BigCat",
+        "Predator",
+        "Africa",
+        "Savanna",
+        "Grassland",
+        "Pride",
+        "Roar",
+        "Mane",
+        "Hunter",
+        "WildAnimal",
+        "Mammal",
+        "Carnivore",
+        "GoldenFur",
+        "KingOfTheJungle"
+      ]
+    }
+  }
+}

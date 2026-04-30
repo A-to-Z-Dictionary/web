@@ -1,0 +1,72 @@
+{
+  "slug": "leopard",
+  "name_scientific": "Panthera pardus",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 0,
+  "lifespan_max": 0,
+  "height_min": 60,
+  "height_max": 70,
+  "weight_min": 20.5,
+  "weight_max": 72,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1664699268523-5836e28d26f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHxMZW9wYXJkJTIwYW5pbWFsfGVufDB8MHx8fDE3Nzc1MjA4MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/31592699/pexels-photo-31592699.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/ga5cb48cb7e8ec04dcdaad32964ea4de11a8ec902432286b126ce95382752f5c0025561af9e8248f16713980c0f4da17a745b2d3f7cd79fe93aa5c6ade6c79a03_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "표범",
+      "family_name": "",
+      "description": "표범은 커다란 고양이과 동물 중 하나예요. 몸은 날씬하고 힘이 세며, 노랗거나 황금색 털에 장미꽃처럼 모여 있는 검은 점무늬가 있어요. 이 멋진 점무늬 덕분에 숲속에 숨어있기 아주 좋답니다.",
+      "fun_fact": "표범은 자기 몸보다 훨씬 무거운 먹이를 물고 나무 위로 올라갈 수 있는 엄청난 힘을 가졌대요! 정말 놀랍지 않나요?",
+      "habitat": [],
+      "tags": [
+        "고양이과",
+        "육식동물",
+        "점박이무늬",
+        "날씬한몸",
+        "근육질",
+        "긴꼬리",
+        "황금색털",
+        "야생동물",
+        "맹수",
+        "사냥꾼",
+        "강력한",
+        "재빠른"
+      ]
+    },
+    "en": {
+      "name": "Leopard",
+      "family_name": "Cat family",
+      "description": "A leopard is a big, strong cat with beautiful yellow or golden fur. It has special black spots that look like roses, which help it hide perfectly in the forest. These amazing spots make it a master of camouflage!",
+      "fun_fact": "Did you know a leopard is super strong? It can carry animals much heavier than itself all the way up a tree!",
+      "habitat": [
+        "Forests",
+        "Grasslands",
+        "Savannas",
+        "Mountains",
+        "Jungles"
+      ],
+      "tags": [
+        "Big cat",
+        "Spotted",
+        "Predator",
+        "Wild animal",
+        "Africa",
+        "Asia",
+        "Carnivore",
+        "Agile",
+        "Nocturnal",
+        "Solitary",
+        "Powerful",
+        "Tree climber",
+        "Camouflage",
+        "Rosettes",
+        "Feline"
+      ]
+    }
+  }
+}

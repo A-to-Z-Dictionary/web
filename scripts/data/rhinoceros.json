@@ -1,0 +1,77 @@
+{
+  "slug": "rhinoceros",
+  "name_scientific": "Rhinocerotidae",
+  "family_scientific": "Rhinocerotidae",
+  "category": "land",
+  "lifespan_min": 35,
+  "lifespan_max": 50,
+  "height_min": 140,
+  "height_max": 185,
+  "weight_min": 800,
+  "weight_max": 2300,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1556080258-a808c481f0ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHxSaGlub2Nlcm9zJTIwYW5pbWFsfGVufDB8MHx8fDE3Nzc1MjA4MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/29157004/pexels-photo-29157004.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g1a15ead3ded96037efbd3971ea86bf1dc546945b4c54db75dea2ef7231fad698a2e78cfae08a155e85164a2ec231329e64aa6c020f56fb50bf85456d55c3ff26_640.png"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "코뿔소",
+      "family_name": "",
+      "description": "코뿔소는 아주 크고 튼튼한 동물이에요. 코 위에 멋진 뿔이 하나 또는 두 개 달려있죠. 주로 아프리카와 아시아의 따뜻한 초원이나 숲에서 풀과 나뭇잎을 먹고 살아요. 덩치는 크지만 무척 온순한 친구랍니다.",
+      "fun_fact": "코뿔소의 뿔은 우리 손톱이나 머리카락처럼 '케라틴'이라는 물질로 만들어져 있어요. 뼈가 아니라는 사실, 정말 신기하죠?",
+      "habitat": [
+        "아프리카",
+        "남아시아",
+        "동남아시아"
+      ],
+      "tags": [
+        "아프리카",
+        "아시아",
+        "초식동물",
+        "뿔",
+        "두꺼운피부",
+        "큰동물",
+        "육상동물",
+        "포유류",
+        "빠른달리기",
+        "멸종위기종",
+        "초원",
+        "숲속",
+        "강인한",
+        "평화로운"
+      ]
+    },
+    "en": {
+      "name": "Rhinoceros",
+      "family_name": "Rhinoceros family",
+      "description": "Rhinoceroses are very big and strong animals. They have one or two cool horns on their nose. They usually live in warm grasslands and forests in Africa and Asia, eating grass and leaves. Even though they are huge, they are often gentle creatures.",
+      "fun_fact": "A rhino's horn is made of something called 'keratin', just like your fingernails and hair! Isn't it cool that it's not bone?",
+      "habitat": [
+        "Grasslands",
+        "Forests",
+        "Savannas",
+        "Swamps"
+      ],
+      "tags": [
+        "Big",
+        "Strong",
+        "Horn",
+        "Africa",
+        "Asia",
+        "Herbivore",
+        "Mammal",
+        "Endangered",
+        "Wild",
+        "Safari",
+        "Thick skin",
+        "Gentle giant",
+        "Grazer",
+        "Keratin",
+        "Unique"
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "polar-bear",
+  "name_scientific": "Ursus maritimus",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 15,
+  "lifespan_max": 18,
+  "height_min": 100,
+  "height_max": 160,
+  "weight_min": 150,
+  "weight_max": 800,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/gd35dd12ce2e114c39db6dd3db868fbaf25e1f14cfdab34b972f0c81a0e1d83b0b0f9493dc94c7ba4e37bde5813e5c8a871ad36d40ecf74423f6773a387cf836e_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Cat",
+      "family_name": "Cat family",
+      "description": "Cats are playful and furry animals that often live in our homes. They have soft fur, pointy ears, and long tails. Cats love to chase toys and can make a gentle purring sound when they are happy. They are also very good at jumping and climbing!",
+      "fun_fact": "Did you know that a cat's nose print is as unique as a human's fingerprint? No two cats have the same nose print!",
+      "habitat": [
+        "Homes",
+        "Barns",
+        "Streets",
+        "Forests"
+      ],
+      "tags": [
+        "pet",
+        "mammal",
+        "furry",
+        "domestic",
+        "carnivore",
+        "predator",
+        "playful",
+        "purr",
+        "feline",
+        "hunter",
+        "agile",
+        "independent",
+        "cute",
+        "meow",
+        "whiskers"
+      ]
+    }
+  }
+}

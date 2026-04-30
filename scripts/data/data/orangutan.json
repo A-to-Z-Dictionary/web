@@ -1,0 +1,57 @@
+{
+  "slug": "orangutan",
+  "name_scientific": "Pongo",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 30,
+  "lifespan_max": 50,
+  "height_min": 100,
+  "height_max": 140,
+  "weight_min": 30,
+  "weight_max": 90,
+  "diet": "omnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g3633d6f9f8fe55e7e5caff0f43446ccc6f74595c3ac1bc3d65123b4c409c04946d5f08c9f59bd6aefeb024f3fcb5e4e0db78d4072976c38e2e1c8579b17ec3c7_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "A lion is a very big, strong cat with beautiful golden fur. Boy lions have a big, fluffy mane around their face that makes them look like kings! They live in Africa and hunt other animals to eat. Lions live in groups called prides and love to play and nap together.",
+      "fun_fact": "A lion's roar is so loud, you can hear it from over 5 miles (8 kilometers) away!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "lion",
+        "big cat",
+        "wild animal",
+        "savanna",
+        "pride",
+        "mane",
+        "roar",
+        "carnivore",
+        "Africa",
+        "king of the jungle",
+        "hunter",
+        "mammal",
+        "predator",
+        "golden fur",
+        "social"
+      ]
+    }
+  }
+}

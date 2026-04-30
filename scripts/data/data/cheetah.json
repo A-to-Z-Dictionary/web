@@ -1,0 +1,57 @@
+{
+  "slug": "cheetah",
+  "name_scientific": "Acinonyx jubatus",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 0,
+  "lifespan_max": 0,
+  "height_min": 67,
+  "height_max": 94,
+  "weight_min": 21,
+  "weight_max": 65,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g147900024cc816872ccd75c71e021aa7defdc537b187998016915b01da671d83bacb9e33b0e0c1375bd8fa788e8be793cd0c5db87e3a69902afe61da9d4c4df7_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Cat",
+      "family_name": "Cat family",
+      "description": "Cats are furry animals that many people keep as pets. They love to play with toys and take long naps in cozy spots. When a cat is happy, it makes a special rumbling sound called a purr. They have soft paws and very good eyes to see in the dark.",
+      "fun_fact": "A group of cats is called a 'clowder,' which is a funny word for a bunch of playful kitties!",
+      "habitat": [
+        "Homes",
+        "Urban areas",
+        "Farms"
+      ],
+      "tags": [
+        "Pet",
+        "Furry",
+        "Playful",
+        "Domesticated",
+        "Purr",
+        "Feline",
+        "Mammal",
+        "Companion",
+        "Cute",
+        "Independent",
+        "Whiskers",
+        "Paws",
+        "Nap",
+        "Hunter",
+        "Carnivore"
+      ]
+    }
+  }
+}

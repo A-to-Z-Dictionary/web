@@ -1,0 +1,57 @@
+{
+  "slug": "giant-panda",
+  "name_scientific": "Ailuropoda melanoleuca",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 0,
+  "lifespan_max": 0,
+  "height_min": 120,
+  "height_max": 190,
+  "weight_min": 100,
+  "weight_max": 115,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/gd27fde41fc6bc309193c1cc1835ef2a1066b6f27d3552e01c06f48198068e2e8d9a5d7ca5e55132d7bd3792d6d23b63b3d63cff8eadc9d716dc9b6e2f01bb206_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "A lion is a very big and strong cat with beautiful golden fur. Male lions have a special fluffy hair around their neck called a mane, which makes them look extra grand! They live in groups called 'prides' and love to nap in the warm sun. Lions are often called the 'King of the Jungle' because they are so powerful.",
+      "fun_fact": "Did you know that a lion's roar is so loud, you can hear it from really far away, up to 5 miles (8 kilometers)? It's like a super loud warning for other animals!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "Lion",
+        "Big Cat",
+        "Predator",
+        "Savanna",
+        "Africa",
+        "King of the Jungle",
+        "Pride",
+        "Roar",
+        "Carnivore",
+        "Mammal",
+        "Wild",
+        "Strong",
+        "Powerful",
+        "Majestic",
+        "Hunter"
+      ]
+    }
+  }
+}

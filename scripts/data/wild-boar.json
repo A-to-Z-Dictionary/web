@@ -1,0 +1,78 @@
+{
+  "slug": "wild-boar",
+  "name_scientific": "Sus scrofa",
+  "family_scientific": "Suidae",
+  "category": "land",
+  "lifespan_min": 4,
+  "lifespan_max": 10,
+  "height_min": 55,
+  "height_max": 110,
+  "weight_min": 50,
+  "weight_max": 190,
+  "diet": "omnivorous",
+  "images": [
+    "https://images.unsplash.com/photo-1671374007592-988e8e275469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHxXaWxkJTIwQm9hciUyMGFuaW1hbHxlbnwwfDB8fHwxNzc3NTIxMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/18948290/pexels-photo-18948290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g7bb72d3ecc6aee4fad3f55d3d7ecea800ff9528f7ff940590cfaaccc5035cdfd92547b7d61c1a636cdacab756798538207ffbc10f0b3f6fab86d55c496bcd9dd_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "멧돼지",
+      "family_name": "",
+      "description": "멧돼지는 숲속을 좋아하는 튼튼한 동물 친구예요. 온몸에 억센 털이 나 있고, 뾰족한 이빨을 가지고 있어서 먹이를 찾거나 자신을 지킬 때 사용해요. 아시아, 유럽, 아프리카 등 세상의 아주 많은 곳에서 만날 수 있답니다.",
+      "fun_fact": "멧돼지는 전 세계에서 가장 넓은 지역에 퍼져 사는 포유류 중 하나래요. 정말 많은 곳에서 멧돼지를 만날 수 있어요!",
+      "habitat": [
+        "숲",
+        "초원",
+        "관목림",
+        "농경지 근처"
+      ],
+      "tags": [
+        "숲동물",
+        "잡식동물",
+        "야생동물",
+        "큰몸집",
+        "억센털",
+        "뾰족한이빨",
+        "튼튼한코",
+        "땅파기",
+        "유럽동물",
+        "아시아동물",
+        "아프리카동물",
+        "적응력강함",
+        "널리분포하는동물"
+      ]
+    },
+    "en": {
+      "name": "Wild Boar",
+      "family_name": "Pig family",
+      "description": "Wild boars are strong, furry animals that love living in forests. They have tough, bristly fur and pointy teeth called tusks, which they use to dig for tasty roots and protect themselves. You can find these interesting creatures in many different parts of the world, like Asia, Europe, and Africa!",
+      "fun_fact": "Did you know that wild boars are one of the most widespread mammals? This means they live in more places all around the world than many other animals!",
+      "habitat": [
+        "forests",
+        "woodlands",
+        "grasslands",
+        "shrublands",
+        "swamps"
+      ],
+      "tags": [
+        "wild boar",
+        "forest animal",
+        "mammal",
+        "omnivore",
+        "tusks",
+        "snout",
+        "pig",
+        "strong",
+        "digging",
+        "social",
+        "nocturnal",
+        "adaptable",
+        "eurasian",
+        "bristly fur",
+        "powerful"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "hyena",
+  "name_scientific": "Hyaenidae",
+  "family_scientific": null,
+  "category": "land",
+  "lifespan_min": 10,
+  "lifespan_max": 25,
+  "height_min": 70,
+  "height_max": 90,
+  "weight_min": 40,
+  "weight_max": 82,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/gbbefc5a9e51d932e156b99717d9dd07c400b4106f3efdb7bc6eb69c53f686c1bca6f19ddfceb1b22eebd6619ca2051facd01343e2d53d02e3092ccbecfd498d8_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": null,
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": null,
+      "family_name": null,
+      "description": null,
+      "fun_fact": null,
+      "habitat": [],
+      "tags": []
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "gorilla",
+  "name_scientific": "Gorilla",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 35,
+  "lifespan_max": 50,
+  "height_min": 120,
+  "height_max": 180,
+  "weight_min": 60,
+  "weight_max": 200,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/gc5ec5c08f9d6acae9a27be04417c6b14ec298a89fbc8e78b51c9b01bfc72d69bec8c1c0256957c7c7be2ff16ccce8a8b142ff8f3d4a0f5472c61974823d09bda_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are very big and strong cats with amazing golden fur. They live together in groups called prides, just like a big family! Boy lions have a special furry \"mane\" around their neck that makes them look super cool. They love to nap in the sunshine and play with their friends.",
+      "fun_fact": "Did you know that a group of lions is called a \"pride\"? They live and hunt together like a big team!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "Lion",
+        "Big cat",
+        "Wild animal",
+        "Predator",
+        "Africa",
+        "Savanna",
+        "Mane",
+        "Roar",
+        "Pride",
+        "Carnivore",
+        "Safari",
+        "Mammal",
+        "King of the jungle",
+        "Feline"
+      ]
+    }
+  }
+}

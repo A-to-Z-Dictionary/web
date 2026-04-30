@@ -1,0 +1,57 @@
+{
+  "slug": "wolf",
+  "name_scientific": "Canis lupus",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 6,
+  "lifespan_max": 13,
+  "height_min": 60,
+  "height_max": 95,
+  "weight_min": 20,
+  "weight_max": 80,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g01c60f40c994b8d4c94bebb870a64669c38bd75dde477dfaf1bf8f947b1c0f4b5777e0c8398c66ab61b411541402c7755936793c7e05671583a7d665a8573805_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are very big and strong cats that mostly live in Africa. Boy lions have a special fluffy fur around their heads called a mane, which makes them look super cool. They live in big families called prides and love to relax and nap together under the warm sun.",
+      "fun_fact": "Did you know a lion's roar is so loud, you can hear it from as far away as 5 miles (8 kilometers)? It's like a giant megaphone!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "Big cat",
+        "Africa",
+        "Mammal",
+        "Carnivore",
+        "Roar",
+        "Mane",
+        "Prides",
+        "King of the jungle",
+        "Hunter",
+        "Apex predator",
+        "Warm climate",
+        "Social animal",
+        "Wildlife",
+        "Large animal",
+        "Feline"
+      ]
+    }
+  }
+}

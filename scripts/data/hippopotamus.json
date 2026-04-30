@@ -1,0 +1,57 @@
+{
+  "slug": "hippopotamus",
+  "name_scientific": "Hippopotamus amphibius",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 40,
+  "lifespan_max": 50,
+  "height_min": 130,
+  "height_max": 165,
+  "weight_min": 1300,
+  "weight_max": 1800,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g9976e3fb09059e855c55832638e74f880fb26572a8b106b3456fd07c9a9ae2997791da3fa88b7d6bbf39727368ac3a0c86b043e8aac4c6b2bdfe0602d88ed55f_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are very big and strong cats with beautiful golden fur. They live in groups called prides, and male lions have a wonderful furry mane around their heads. Lions are often called the \"king of the jungle\" because they are so powerful and majestic. They love to hunt and play with their family in the warm sun.",
+      "fun_fact": "A lion's roar is super loud and can be heard from more than 5 miles (8 kilometers) away!",
+      "habitat": [
+        "Savannas",
+        "Grasslands",
+        "African plains"
+      ],
+      "tags": [
+        "Lion",
+        "Big Cat",
+        "King of the Jungle",
+        "Africa",
+        "Savanna",
+        "Grasslands",
+        "Mammal",
+        "Wild Animal",
+        "Predator",
+        "Carnivore",
+        "Roar",
+        "Mane",
+        "Pride",
+        "Hunter",
+        "Golden Fur"
+      ]
+    }
+  }
+}

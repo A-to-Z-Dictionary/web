@@ -1,0 +1,57 @@
+{
+  "slug": "lion",
+  "name_scientific": "Panthera leo",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 10,
+  "lifespan_max": 14,
+  "height_min": 90,
+  "height_max": 120,
+  "weight_min": 120,
+  "weight_max": 250,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/ge090da8eee209bb30426e4b08c91334c126c4abee30073a5e5fad0e48f835929226e308a2efb1be723e849a7f51b8ade25e8e19382cd2d86bc94326c4524abf7_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Cat",
+      "family_name": "Cat family",
+      "description": "Cats are furry friends that love to play and nap a lot. They have soft paws and sharp claws that help them climb and catch toys. Cats often make a purring sound when they are happy and meow to talk to people. They are very curious animals and love exploring new things!",
+      "fun_fact": "Cats can make over 100 different sounds, which is many more than dogs can make!",
+      "habitat": [
+        "Homes",
+        "Farms",
+        "Urban environments"
+      ],
+      "tags": [
+        "mammal",
+        "pet",
+        "domestic",
+        "carnivore",
+        "felidae",
+        "purring",
+        "meowing",
+        "playful",
+        "napper",
+        "hunter",
+        "agile",
+        "furry",
+        "companion",
+        "four-legged",
+        "curious"
+      ]
+    }
+  }
+}

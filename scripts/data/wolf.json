@@ -1,0 +1,75 @@
+{
+  "slug": "wolf",
+  "name_scientific": "Canis lupus",
+  "family_scientific": "Canidae",
+  "category": "land",
+  "lifespan_min": 6,
+  "lifespan_max": 13,
+  "height_min": 60,
+  "height_max": 95,
+  "weight_min": 20,
+  "weight_max": 80,
+  "diet": "carnivore",
+  "images": [
+    "https://images.unsplash.com/photo-1567163056522-a05057f4d719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHxXb2xmJTIwYW5pbWFsfGVufDB8MHx8fDE3Nzc1MjA4ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/29730856/pexels-photo-29730856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g2f5ec9eb9e99033e04d75e40c16dfde7c6cf926e7394f9967a8d9764be0b27179d3cdf9bb9387c0f92867215dd648a175afacebe48e4723457d1dc78110a33b8_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "늑대",
+      "family_name": "",
+      "description": "늑대는 똑똑하고 용감한 동물 친구야! 주로 회색 털을 가졌지만, 어떤 늑대는 하얀색, 갈색, 검은색 털을 가지고 있어. 북아메리카와 유라시아의 넓은 곳에서 살고, 우리 강아지랑도 아주 먼 친척이래!",
+      "fun_fact": "우리 집에서 키우는 귀여운 강아지가 사실 늑대의 먼 후손이라는 거 알고 있었니? 늑대와 강아지는 아주 오랜 옛날부터 친척 사이였대!",
+      "habitat": [
+        "유라시아",
+        "북아메리카"
+      ],
+      "tags": [
+        "포유류",
+        "육식동물",
+        "야생동물",
+        "무리생활",
+        "회색늑대",
+        "큰개과",
+        "유라시아",
+        "북아메리카",
+        "사냥꾼",
+        "울음소리",
+        "똑똑한동물",
+        "털색깔다양",
+        "추운지방"
+      ]
+    },
+    "en": {
+      "name": "Wolf",
+      "family_name": "Dog family",
+      "description": "Wolves are very smart and brave animal friends! Most have gray fur, but some can also be white, brown, or even black. They live in many wild places across North America and Eurasia. Did you know they are distant relatives of our pet dogs?",
+      "fun_fact": "Did you know that your adorable pet dog is actually a distant descendant of wolves? Wolves and dogs have been related for a very, very long time!",
+      "habitat": [
+        "Forests",
+        "Mountains",
+        "Tundra",
+        "Grasslands"
+      ],
+      "tags": [
+        "Wild",
+        "Intelligent",
+        "Pack animal",
+        "Hunter",
+        "Carnivore",
+        "Mammal",
+        "Predator",
+        "Canine",
+        "Howling",
+        "North America",
+        "Eurasia",
+        "Brave",
+        "Fur",
+        "Strong",
+        "Teamwork"
+      ]
+    }
+  }
+}

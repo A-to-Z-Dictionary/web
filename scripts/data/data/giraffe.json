@@ -1,0 +1,57 @@
+{
+  "slug": "giraffe",
+  "name_scientific": "Giraffa camelopardalis",
+  "family_scientific": "Felidae",
+  "category": "land",
+  "lifespan_min": 15,
+  "lifespan_max": 25,
+  "height_min": 400,
+  "height_max": 570,
+  "weight_min": 800,
+  "weight_max": 1900,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1474511320723-9a56873867b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHwlMjBhbmltYWx8ZW58MHwwfHx8MTc3NzUyNjUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/30011316/pexels-photo-30011316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g13a05e48f51dce9cb61f7e3fa74834679cc09e1bfe92738dd7bab736ddab004fc76f1123bf7744347f69035a660dfcc240356ba4c6be647ca8df1d0c41acbbaa_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "",
+      "family_name": "고양잇과",
+      "description": "",
+      "fun_fact": "",
+      "habitat": [],
+      "tags": []
+    },
+    "en": {
+      "name": "Lion",
+      "family_name": "Cat family",
+      "description": "Lions are big, strong cats that live in Africa. They have golden fur, and boy lions have a beautiful bushy mane around their heads! Lions live together in groups called prides, which is like their family. They love to play and hunt, and are often called the 'king of the jungle' because they are so majestic.",
+      "fun_fact": "A lion's roar is so loud, you can hear it from over 5 miles away!",
+      "habitat": [
+        "Savanna",
+        "Grasslands",
+        "Open woodlands"
+      ],
+      "tags": [
+        "lion",
+        "big cat",
+        "Africa",
+        "safari",
+        "wild animal",
+        "mammal",
+        "carnivore",
+        "roar",
+        "mane",
+        "pride",
+        "king of the jungle",
+        "savanna animal",
+        "predator",
+        "golden fur",
+        "powerful"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "sloth",
+  "name_scientific": "Folivora",
+  "family_scientific": "Bradypodidae",
+  "category": "land",
+  "lifespan_min": 20,
+  "lifespan_max": 30,
+  "height_min": 50,
+  "height_max": 70,
+  "weight_min": 3,
+  "weight_max": 8,
+  "diet": "herbivore",
+  "images": [
+    "https://images.unsplash.com/photo-1724521154181-93e3207aa22c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5Mzg5MjJ8MHwxfHNlYXJjaHwxfHxTbG90aCUyMGFuaW1hbHxlbnwwfDB8fHwxNzc3NTIxMTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.pexels.com/photos/32741385/pexels-photo-32741385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://pixabay.com/get/g96dd741dbcbb68ed688974611cb69456d9d36d74876b10e06aee0490b902ef233d97925a5d4b55e132aa337a9eeafb34_640.jpg"
+  ],
+  "sound_url": "",
+  "translations": {
+    "ko": {
+      "name": "나무늘보",
+      "family_name": "",
+      "description": "나무늘보는 남아메리카와 중앙아메리카의 따뜻한 열대우림에 살아요. 아주 느리게 움직이는 것으로 유명하며, 대부분의 시간을 나무에 거꾸로 매달려 보낸답니다. 개미핥기와 아주 가까운 친척이에요. 숲속에서 거꾸로 매달려 있는 친구를 보면 나무늘보일 수도 있어요!",
+      "fun_fact": "나무늘보는 너무 느리게 움직여서 몸에 이끼가 자라기도 해요! 또 일주일에 딱 한 번만 땅으로 내려와서 화장실에 간답니다. 정말 신기하죠?",
+      "habitat": [
+        "남아메리카 열대우림",
+        "중앙아메리카 열대우림"
+      ],
+      "tags": [
+        "나무늘보",
+        "느림보",
+        "초식동물",
+        "열대우림",
+        "남아메리카",
+        "중앙아메리카",
+        "나무 위",
+        "거꾸로 매달리기",
+        "잠꾸러기",
+        "나뭇잎 먹이",
+        "매달리기 전문가",
+        "숲속 친구",
+        "느린 움직임"
+      ]
+    },
+    "en": {
+      "name": "Sloth",
+      "family_name": "Sloth family",
+      "description": "Sloths live in the warm rainforests of South and Central America. They are famous for being super slow, moving at a snail's pace! These amazing animals spend almost all their time hanging upside down from tree branches. Did you know they are even related to anteaters?",
+      "fun_fact": "Because sloths move so incredibly slowly, tiny green algae can actually grow on their fur, helping them blend in with the leaves!",
+      "habitat": [
+        "Rainforests",
+        "South America",
+        "Central America",
+        "Tree canopy"
+      ],
+      "tags": [
+        "Sloth",
+        "Slow animal",
+        "Rainforest",
+        "Arboreal",
+        "Mammal",
+        "Cute animal",
+        "Tropical forest",
+        "Upside down",
+        "Tree dweller",
+        "Gentle",
+        "South America",
+        "Central America",
+        "Algae fur",
+        "Leaf eater",
+        "Unique"
+      ]
+    }
+  }
+}
