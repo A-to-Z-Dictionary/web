@@ -19,6 +19,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **OS**: Windows 11
 - **패키지 매니저**: npm
+- **기술 리서치**: 구현 중 라이브러리 문서나 예제가 필요할 경우 반드시 `mcp-context7` 도구를 사용하여 최신 공식 문서를 참조한다.
 
 ## Commands
 
