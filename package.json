@@ -9,7 +9,13 @@
     "lint": "eslint",
     "collect": "tsx --env-file=.env.local scripts/collect.ts",
     "db:types": "npx supabase gen types typescript --project-id nhoobeeiwtjxosiuusvj > src/types/database.types.ts",
-    "enrich": "tsx --env-file=.env.local scripts/enrich.ts"
+    "enrich": "tsx --env-file=.env.local scripts/enrich.ts",
+    "patch": "tsx --env-file=.env.local scripts/patch_data.ts",
+    "fix": "tsx --env-file=.env.local scripts/fix_all.ts",
+    "upload": "tsx --env-file=.env.local scripts/upload.ts",
+    "migrate:images": "tsx --env-file=.env.local scripts/migrate_images.ts",
+    "refix:images": "tsx --env-file=.env.local scripts/refix_images.ts",
+    "replace:images": "tsx --env-file=.env.local scripts/replace_images.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.65",
