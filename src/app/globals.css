@@ -16,6 +16,12 @@
   --color-border: #DDDDDD;
   --color-overlay: rgba(0, 0, 0, 0.05);
 
+  /* Spacing for WebView */
+  --spacing-safe-top: env(safe-area-inset-top);
+  --spacing-safe-bottom: env(safe-area-inset-bottom);
+  --spacing-safe-left: env(safe-area-inset-left);
+  --spacing-safe-right: env(safe-area-inset-right);
+
   /* Base Shadcn mappings */
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
@@ -66,14 +72,14 @@
   --popover: #FFFFFF;
   --popover-foreground: #111111;
   --primary: #FFD700;
-  --primary-foreground: #111111; /* Dark text on Yellow */
+  --primary-foreground: #111111;
   --secondary: #DDDDDD;
   --secondary-foreground: #111111;
   --muted: #FFFFFF;
   --muted-foreground: #555555;
   --accent: #FFFFFF;
   --accent-foreground: #111111;
-  --destructive: oklch(0.577 0.245 27.325); /* Kept original */
+  --destructive: oklch(0.577 0.245 27.325);
   --border: #DDDDDD;
   --input: #DDDDDD;
   --ring: #FFD700;
@@ -117,7 +123,7 @@
   --muted-foreground: #A0A0A0;
   --accent: #1A1A1A;
   --accent-foreground: #FFFFFF;
-  --destructive: oklch(0.704 0.191 22.216); /* Kept original */
+  --destructive: oklch(0.704 0.191 22.216);
   --border: #333333;
   --input: #333333;
   --ring: #FFD700;
@@ -139,14 +145,47 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    /* WebView 최적화: 텍스트 선택 방지 및 터치 하이라이트 제거 */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
   }
-  body {
-    @apply bg-background text-foreground;
+
+  /* 입력 필드는 예외적으로 선택 허용 */
+  input, textarea {
+    user-select: text;
   }
-  button:not(:disabled), [role="button"]:not(:disabled) {
-    cursor: pointer;
-  }
+
   html {
     @apply font-sans;
+    /* WebView 스크롤 최적화 */
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    /* 모바일 뷰포트 고정 및 Safe Area 적용 */
+    min-height: 100%;
+    min-height: 100dvh;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  /* WebView 내에서 불필요한 마우스 커서 스타일 제거 */
+  button, [role="button"] {
+    cursor: default;
+  }
+}
+
+@layer utilities {
+  /* WebView용 중앙 정렬 컨테이너 (최대 너비 제한 및 고정) */
+  .webview-container {
+    @apply mx-auto w-full max-w-(--breakpoint-sm);
+    min-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
   }
 }
