@@ -80,8 +80,7 @@ National Geographic의 탐험적 정체성을 현대적 교육용 앱으로 재�
 
 ---
 
-## 6. 작업 원칙
+## 7. 이미지 및 미디어 최적화
 
-1.  **추상화 우선**: 하드코딩된 HEX/RGB 대신 `bg-primary`, `text-muted`, `border-border` 같은 테마 토큰 사용
-2.  **다크모드 필수**: 모든 컴포넌트는 다크모드를 반드시 고려하여 설계
-3.  **일관성 유지**: `src/components/ui`의 기존 스타일 패턴 계승
+- **WebP 포맷팅**: WebView의 제한된 메모리 효율을 위해 모든 이미지는 **WebP** 포맷 사용을 원칙으로 합니다.
+- **next/image 활용**: Next.js의 `Image` 컴포넌트를 사용하여 자동 리사이징 및 Lazy Loading을 적용함으로써 초기 로딩 부하를 최소화합니다.
