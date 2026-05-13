@@ -1,74 +1,32 @@
-# Next.js Starter Kit
+# A to Z Animals — 어린이 동물을 위한 탐험적 백과사전
 
-Next.js 16 + TypeScript + Tailwind CSS v4 기반 프론트엔드 스타터킷.
+**A to Z Animals**는 React Native(Expo) 모바일 애플리케이션 내의 **WebView로 임베드**되도록 최적화된, 인터페이스 중심의 어린이용 동물 백과사전 웹 콘텐츠입니다.
 
-## 기술 스택
+## 🐾 프로젝트 소개
 
-| 분류 | 라이브러리 |
-|------|-----------|
-| 프레임워크 | Next.js 16 (App Router), React 19 |
-| 스타일링 | Tailwind CSS v4, tw-animate-css |
-| UI 컴포넌트 | shadcn (base-nova), @base-ui/react, lucide-react, react-icons |
-| 상태 관리 | Zustand (persist 미들웨어 내장) |
-| 서버 상태 | TanStack React Query v5 |
-| 폼 | React Hook Form + Zod + @hookform/resolvers |
-| 애니메이션 | Framer Motion |
-| 테마 | next-themes (다크모드 토글) |
-| 알림 | Sonner (토스트) |
-| 유틸리티 | clsx, tailwind-merge, class-variance-authority |
-| 개발 도구 | Prettier + prettier-plugin-tailwindcss |
+단순히 텍스트를 읽는 백과사전에서 벗어나, 아이들이 호기심을 갖고 동물의 특징을 발견하며 학습할 수 있는 환경을 제공합니다. 모바일 앱 환경에 최적화된 UI/UX를 통해 National Geographic의 탐험적 감성을 "야생을 보는 창"으로 구현하는 것이 목표입니다.
 
-## 시작하기
+## ✨ 주요 기능
 
-```bash
-npm install
-npm run dev
-```
+- **탐험적 동물 도감**: 고화질 사진과 함께 A부터 Z까지, 지상부터 공룡까지 다양한 동물 데이터를 탐색합니다.
+- **AI 특징 검색**: "야행성이고 줄무늬가 있는 동물은 누구일까?"와 같이 동물의 특징을 기반으로 Gemini AI가 동물을 찾아줍니다.
+- **실루엣 퀴즈**: 동물의 실루엣과 단계별 힌트를 통해 동물을 맞히고 도감을 완성해 나가는 게임 요소를 제공합니다.
+- **아동 보호 중심**: 만 14세 미만 개인정보보호법을 준수하여, 부모가 관리하는 프로필 시스템으로 안전하게 이용할 수 있습니다.
 
-`http://localhost:3000` 에서 확인.
+## 🛠 기술 스택
 
-## 주요 명령어
+- **Frontend**: Next.js 16 (App Router), TypeScript, Tailwind CSS v4, Framer Motion
+- **Backend**: Supabase (PostgreSQL), Edge Functions
+- **AI**: Google Gemini Pro 2.5 Flash
+- **Infrastructure**: Vercel, PortOne (본인인증), Toss Payments
 
-```bash
-npm run dev      # 개발 서버
-npm run build    # 프로덕션 빌드
-npm run lint     # ESLint 검사
-```
+## 🚀 개발 및 기여
 
-## 폴더 구조
+이 프로젝트는 AI 에이전트(Gemini CLI, Codex)와 협업하여 엄격한 컨벤션 하에 개발되고 있습니다. 개발 가이드라인과 상세 설계 원칙은 아래 문서를 참고하십시오.
 
-```
-src/
-├── app/                # Next.js App Router (페이지, 레이아웃)
-├── components/
-│   ├── common/         # 전역 공통 컴포넌트 (Providers 등)
-│   └── ui/             # shadcn UI 컴포넌트
-└── lib/                # 유틸리티 (cn 등)
-public/                 # 정적 파일
-```
+- **전체 가이드라인**: [AGENTS.md](./AGENTS.md)
+- **에이전트 역할**: [GEMINI.md](./GEMINI.md) (PM) / [CODEX.md](./CODEX.md) (Engineer)
+- **세부 컨벤션**: `.agents/` 디렉토리 내 SKILLS.md 문서들
 
-## UI 컴포넌트 추가
-
-```bash
-npx shadcn add <component>
-```
-
-## 스타일 가이드
-
-- 클래스 병합: `cn()` 함수 사용 (`lib/utils.ts`)
-- 다크모드: `dark:` prefix (`.dark` 클래스 기반)
-- 저장 시 Tailwind 클래스 자동 정렬 (Prettier + VS Code `formatOnSave`)
-
-## Zustand persist 예시
-
-```ts
-import { create } from "zustand"
-import { persist } from "zustand/middleware"
-
-const useStore = create(
-  persist(
-    (set) => ({ count: 0, increment: () => set((s) => ({ count: s.count + 1 })) }),
-    { name: "store" }
-  )
-)
-```
+---
+© 2026 A to Z Animals Team.
