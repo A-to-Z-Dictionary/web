@@ -15,8 +15,11 @@
 
 ### Commit Message Format
 
-- **형식**: `유형(#이슈 번호): 작업 내용 요약`
-- **예시**: `git commit -m "feat(#12): 유저의 로그인 기능 추가"`
+- **형식**: `유형(#이슈 번호): 작업 내용 요약/에이전트 이름`
+- **규칙**: 작업 내용 뒤에 슬래시(`/`)를 붙이고, 작업을 수행한 에이전트의 이름(Gemini, Claude, Codex)을 반드시 명시합니다.
+- **예시**: `git commit -m "feat(#12): 유저의 로그인 기능 추가/Gemini"`
+- **예시**: `git commit -m "style(#2): 메인 컬러 팔레트 적용/Claude"`
+- **예시**: `git commit -m "refactor(#12): 로그인 API 로직 최적화/Codex"`
 
 ## Branch Template
 

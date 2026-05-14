@@ -144,6 +144,7 @@
 **하나의 논리적 변화가 완료되면 즉시 커밋하십시오.**
 
 - 상세 규칙은 [.agents/git-convention/SKILLS.md](./.agents/git-convention/SKILLS.md)를 따릅니다.
+- **필수**: 모든 커밋 메시지 끝에는 `/에이전트 이름`을 붙여야 합니다. (예: `feat(#1): .../Gemini`)
 
 ---
 
