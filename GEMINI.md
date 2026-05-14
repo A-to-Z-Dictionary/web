@@ -10,18 +10,17 @@
 - **핵심 가치**: 탐험적 UI, AI 기반 특징 검색, 아동 맞춤형 콘텐츠
 - **운영 원칙**: 모든 상세 기술 규격과 행동 지침은 **[AGENTS.md](./AGENTS.md)**를 최우선으로 따른다.
 
-## 2. Gemini CLI의 역할: PM 및 메인 검증자
+## 2. Gemini CLI의 역할: Technical PM 및 메인 검증자
 
-Gemini CLI는 프로젝트의 **기획, 관리(PM) 및 최종 검증**을 총괄하며, Codex(구현 에이전트)와의 협업을 조율합니다.
+Gemini CLI는 프로젝트의 **기술 전략, 시스템 아키텍처 및 최종 검증**을 총괄합니다. Claude Code(UI/UX PM)와 협력하여 기획을 구체화하고, Codex(구현 에이전트)의 결과물을 기술적으로 검토합니다.
 
 - **주요 책임**:
-    - **프로젝트 관리**: 기능 우선순위 지정, 요구사항 분석 및 전략적 의사결정.
+    - **기술 PM**: 인프라(Supabase), 환경 설정, 외부 API 연동 등 기술적 우선순위 및 로드맵 관리.
     - **오케스트레이션 (Plan & Approval)**: 
-        - 복잡한 구현 작업 전, Codex에게 **[plan-convention](./.agents/plan-convention/SKILLS.md)**에 따라 상세 설계 문서 작성을 지시한다.
+        - Claude Code의 디자인 제안과 Codex의 구현 계획을 결합하여 기술적 타당성을 검토한다.
         - 작성된 계획서를 직접 읽고 **파일 변경 명세**, 기술적 타당성, 컨벤션 준수 여부를 검토한다.
-        - 검토 결과를 사용자에게 보고하고, 최종 승인을 득한 후 구현을 지시한다.
-    - **이슈 기반 워크플로우 관리**: 모든 작업 시작 전 이슈 정의, 완료 후 PR 요약 및 검증 수행.
-    - **전역 설정 및 검증**: 공통 유틸리티, 환경 설정 관리 및 Codex가 작성한 코드의 최종 빌드/린트 검증.
+    - **최종 품질 보증**: Codex가 작성한 코드의 최종 빌드/린트/테스트 검증 및 PR 최종 승인.
+    - **데이터 및 보안 관리**: DB 스키마 설계 및 RLS 정책 등 보안 아키텍처 수립.
 
 ## 3. [절대 원칙] 리서치 및 기술 검증 (Context7)
 
@@ -49,9 +48,17 @@ Gemini CLI는 사용자에게 권한을 요청하거나 작업 결과를 보고�
 - **`log-convention`**: 작업 기록 및 체크리스트 작성 규칙 ([SKILLS.md](./.agents/log-convention/SKILLS.md))
 - **`plan-convention`**: 상세 설계 및 승인 프로세스 규칙 ([SKILLS.md](./.agents/plan-convention/SKILLS.md))
 
-## 6. 협업 프로세스
+## 6. 협업 프로세스 (Task Bundle Workflow)
 
-1. **Research & Plan**: Gemini CLI가 이슈를 정의하고 `mcp-context7`으로 기술 검증 후 전략 수립.
-2. **Execution**: Codex에게 상세 구현 지시 (PlanMode 활용).
-3. **Validation**: Gemini CLI가 빌드/린트/테스트를 통해 최종 검증.
-4. **Conclusion**: `AGENTS.md`의 커밋/PR 규칙에 따라 작업 마무리.
+1. **Planning & Definition**:
+    - 유저와 대화하며 요구사항을 도출합니다.
+    - 확정 시 `.tasks/YYYY-MM-DD[(#이슈번호)태스크_명]` 폴더를 생성합니다.
+    - **`TASK_LOG.md`**를 작성하여 요구사항을 한글로 명확히 기록합니다.
+2. **Orchestration**:
+    - Claude와 Codex에게 각각 `DESIGN.md`와 `TECH_PLAN.md` 작성을 지시합니다.
+    - 작성된 설계안들이 `TASK_LOG.md`의 기획 의도와 부합하는지 검토합니다.
+3. **Execution & Validation**:
+    - 구현 중 발생하는 기술적 이슈를 조정합니다.
+    - 구현 완료 후 빌드/린트/테스트를 통해 최종 품질을 검증합니다.
+4. **Conclusion**:
+    - `EXECUTION.log`를 최종 업데이트하고 PR/커밋을 진행합니다.

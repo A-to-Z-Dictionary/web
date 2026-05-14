@@ -1,12 +1,47 @@
 # A to Z Animals Agent Guide (Karpathy Guidelines)
 
-이 문서는 Codex/AI 에이전트가 A to Z Animals 프로젝트에서 작업할 때 준수해야 하는 운영 및 행동 지침입니다. Andrej Karpathy의 관찰을 바탕으로 AI 코딩 에이전트가 자주 저지르는 실수를 방지하기 위한 핵심 원칙을 통합하여 작성되었습니다.
-
-**핵심 원칙:** 이 가이드라인은 속도보다 **신중함**과 **정확성**을 우선합니다. 모든 작업은 "시니어 엔지니어의 관점"에서 수행되어야 합니다.
+이 문서는 에이전트 연합(Gemini, Claude, Codex)이 A to Z Animals 프로젝트에서 협업할 때 준수해야 하는 운영 및 행동 지침입니다.
 
 ---
 
-## 1. 참고 문서 (Technical Conventions)
+## 1. 에이전트 역할 및 책임 (Roles & Responsibilities)
+
+- **Gemini CLI (Technical PM & Main Validator)**: [GEMINI.md](./GEMINI.md)
+    - 기술 전략, 이슈 관리, 워크플로우 오케스트레이션 및 최종 검증.
+- **Claude Code (UI/UX Designer & UX PM)**: [CLAUDE.md](./CLAUDE.md)
+    - 시각적 디자인, 아동 맞춤형 UX 설계 및 디자인 시스템 관리.
+- **Codex (Senior Full-stack Engineer)**: [CODEX.md](./CODEX.md)
+    - 상세 기술 설계 및 실제 코드 구현, 로직 최적화.
+
+---
+
+## 2. 작업 워크플로우: Task Bundle 시스템
+
+모든 작업은 `.tasks/` 폴더 내에 생성되는 **Task Bundle** 단위를 중심으로 진행됩니다.
+
+### 2.1 폴더 네이밍 규칙
+- **형식**: `YYYY-MM-DD[(#이슈번호)태스크_이름]`
+- **규칙**: 날짜와 이슈번호는 필수이며, 태스크 이름은 사용자(사람)가 이해하기 쉽도록 **한글**을 사용합니다.
+- **예시**: `2026-05-14[(#12)포트원_결제_연동]`
+
+### 2.2 태스크 번들 내부 구성
+각 번들 폴더 내부에는 역할별로 다음 파일들이 생성되어야 합니다.
+1. **`TASK_LOG.md`** (Gemini): 사용자(유저)와 협의된 최종 기획 및 요구사항 기록 (기획 바이블).
+2. **`DESIGN.md`** (Claude): UI/UX 설계안, 와이어프레임, 인터랙션 설계 기록.
+3. **`TECH_PLAN.md`** (Codex): 구체적인 구현 방법, 수정 파일 명세, 기술적 고려사항 기록.
+4. **`EXECUTION.log`** (공통): 작업 진행 상황 체크리스트 및 실시간 기록.
+
+### 2.3 표준 작업 프로세스
+1. **[기획]**: 유저와 Gemini가 대화를 통해 작업 내용을 구체화합니다.
+2. **[확정]**: Gemini가 이슈를 생성하고 `.tasks/` 하위에 번들 폴더와 `TASK_LOG.md`를 작성합니다.
+3. **[설계]**: Claude가 `DESIGN.md`를, Codex가 `TECH_PLAN.md`를 작성하여 Gemini의 검토를 받습니다.
+4. **[승인]**: 유저가 최종 설계를 확인하고 승인합니다.
+5. **[구현]**: 에이전트들이 `EXECUTION.log`를 업데이트하며 실제 코드를 작성합니다.
+6. **[검증]**: Gemini가 빌드/린트/기능 테스트를 수행하고 PR을 준비합니다.
+
+---
+
+## 3. 참고 문서 (Technical Conventions)
 
 모든 작업은 아래의 전문 컨벤션을 최우선으로 준수해야 합니다.
 
