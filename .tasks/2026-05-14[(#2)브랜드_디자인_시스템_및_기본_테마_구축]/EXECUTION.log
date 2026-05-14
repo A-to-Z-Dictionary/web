@@ -2,16 +2,20 @@
 
 ## 📅 작업 일지
 - **2026-05-14**: 태스크 번들 생성 및 기획 문서 작성 완료. Claude와 Codex에게 설계 지시 예정.
-- **2026-05-14**: Codex가 현재 `globals.css`, Tailwind v4 의존성, WebView 최적화 구조를 확인하고 `TECH_PLAN.md` 초안을 작성함. Claude의 `DESIGN.md` 작성 후 확정값 반영 예정.
-- **2026-05-14**: 이슈 및 폴더가 `#2` 기준으로 정리된 것을 확인하고, Claude의 `DESIGN.md`를 반영해 `TECH_PLAN.md`를 재작성함.
+- **2026-05-14**: Codex가 현재 `globals.css`, Tailwind v4 의존성, WebView 최적화 구조를 확인하고 `TECH_PLAN.md` 초안을 작성함.
+- **2026-05-14**: Claude가 `DESIGN.md` 작성을 완료하고 `globals.css`, `layout.tsx`에 실제 코드를 적용함. (커밋: 0442dce)
+- **2026-05-14**: GitHub Projects (칸반 보드)를 생성하여 이슈 #2를 보드에 등록함.
+- **2026-05-14**: Claude의 구현물 검토 결과, `button.tsx`의 가독성 보완(text-xs 제거)이 필요한 것으로 확인되어 Codex에게 기술 검토를 지시함.
 
 ## ✅ 실행 체크리스트
 - [x] 번들 폴더 및 초기 문서 세팅 (Gemini)
 - [x] UI/UX 상세 설계 및 디자인 승인 (Claude)
 - [x] 기술 설계 및 구현 계획 승인 (Codex)
 - [x] 실제 코드 구현 및 로컬 테스트 (Claude)
-- [ ] 빌드 및 린트 검증 (Gemini)
+- [/] 기술적 무결성 검증 및 컴포넌트 호환성 조정 (Codex)
+- [ ] 빌드 및 린트 검증 (Gemini - 스크립트 에러 제외)
 - [ ] 최종 PR 생성 및 작업 종료 (Gemini)
+
 
 ## 🔗 Git Commits
 > 작업 중 생성된 커밋 내역을 기록합니다.
