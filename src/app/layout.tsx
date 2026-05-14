@@ -1,14 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Noto_Sans } from "next/font/google";
+import { Geist_Mono, Noto_Sans_KR, Nunito } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/tailwind/utils";
 import Providers from "@/components/common/providers";
 
-const notoSans = Noto_Sans({ subsets: ["latin"], variable: "--font-sans" });
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const notoSansKr = Noto_Sans_KR({
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-sans",
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+  variable: "--font-nunito",
 });
 
 const geistMono = Geist_Mono({
@@ -35,8 +40,8 @@ export default function RootLayout({
       className={cn(
         "h-full",
         "antialiased",
-        notoSans.variable,
-        geistSans.variable,
+        notoSansKr.variable,
+        nunito.variable,
         geistMono.variable,
         "font-sans",
       )}

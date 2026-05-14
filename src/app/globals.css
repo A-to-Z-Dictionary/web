@@ -5,8 +5,22 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Brand Colors (from color_palette.md) */
+  /* Brand Core Colors */
   --color-primary: #FFD700;
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  /* Status Colors */
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
 
   /* Custom Light Mode Tokens (from color_palette.md) */
   --color-background: #F2F2F2;
@@ -26,7 +40,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-nunito);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -43,12 +57,8 @@
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
@@ -73,11 +83,11 @@
   --popover-foreground: #111111;
   --primary: #FFD700;
   --primary-foreground: #111111;
-  --secondary: #DDDDDD;
+  --secondary: #3FBB7D;
   --secondary-foreground: #111111;
   --muted: #FFFFFF;
   --muted-foreground: #555555;
-  --accent: #FFFFFF;
+  --accent: #FF8C42;
   --accent-foreground: #111111;
   --destructive: oklch(0.577 0.245 27.325);
   --border: #DDDDDD;
@@ -89,6 +99,17 @@
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
   --radius: 0.625rem;
+
+  /* Status Colors */
+  --success: #4AD66D;
+  --success-foreground: #111111;
+  --warning: #FFB830;
+  --warning-foreground: #111111;
+  --danger: #FF6B6B;
+  --danger-foreground: #111111;
+  --info: #4FC3F7;
+  --info-foreground: #111111;
+
   --sidebar: #FFFFFF;
   --sidebar-foreground: #111111;
   --sidebar-primary: #FFD700;
@@ -117,12 +138,12 @@
   --popover-foreground: #FFFFFF;
   --primary: #FFD700;
   --primary-foreground: #111111;
-  --secondary: #333333;
-  --secondary-foreground: #FFFFFF;
+  --secondary: #4ECE8A;
+  --secondary-foreground: #111111;
   --muted: #1A1A1A;
   --muted-foreground: #A0A0A0;
-  --accent: #1A1A1A;
-  --accent-foreground: #FFFFFF;
+  --accent: #FF9F5E;
+  --accent-foreground: #111111;
   --destructive: oklch(0.704 0.191 22.216);
   --border: #333333;
   --input: #333333;
@@ -132,6 +153,16 @@
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
+  /* Status Colors — 다크 배경 대비 충분하여 라이트와 동일 유지 */
+  --success: #4AD66D;
+  --success-foreground: #111111;
+  --warning: #FFB830;
+  --warning-foreground: #111111;
+  --danger: #FF6B6B;
+  --danger-foreground: #111111;
+  --info: #4FC3F7;
+  --info-foreground: #111111;
+
   --sidebar: #1A1A1A;
   --sidebar-foreground: #FFFFFF;
   --sidebar-primary: #FFD700;
